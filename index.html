@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Жанасыл</title>
+  <script src="https://unpkg.com/imask"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2>Анкета</h2>
+    <form id="registrationForm" action="" method="post" novalidate>
+      <div id="formWrapper">
+        <div class="form-group">
+          <label for="name">ФИО</label>
+          <input type="text" id="name" name="name" placeholder="Дулат Братан Мешокович">
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="student@school.edu">
+        </div>
+        <div class="form-group">
+          <label for="number">Номер</label>
+          <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="iin">ИИН</label>
+          <div class="password-wrapper">
+            <input type="tel" id="iin" name="iin" placeholder="Введите ИИН">
+          </div>
+          <small class="hint">Введите ИИН РК</small>
+        </div>
+      </div>
+
+      
+
+      <button type="submit" id="submitBtn" class="register-button">
+        <span class="btn-text">Продолжить</span>
+        <svg class="checkmark-svg" viewBox="0 0 52 52">
+          <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+          <path class="checkmark-check" fill="none" d="M14 27l7 7 16-16"/>
+        </svg>
+      </button>
+      
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+
+  </script>
+</body>
+</html>
