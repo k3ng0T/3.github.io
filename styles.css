@@ -101,8 +101,8 @@ body {
     border-radius: 50%;
     position: fixed;
     left: 50%;
-    top: 20%;
-    transform: translate(-50%, -20%);
+    top: 30%;
+    transform: translate(-50%, -30%);
     padding: 0;
     z-index: 1000;
   }
