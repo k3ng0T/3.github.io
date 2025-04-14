@@ -6,16 +6,6 @@ document.getElementById("submitBtn").addEventListener("click", function (e) {
     let valid = true
 
     
-    if (phoneInput) {
-      IMask(phoneInput, {
-        mask: '+{7} (000) 000-00-00'
-      })
-    }
-    if (iin) {
-      IMask(iin, {
-        mask: '000000000000'
-      })
-    }
 
   
   
