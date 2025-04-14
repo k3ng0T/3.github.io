@@ -46,11 +46,24 @@
       
     </form>
   </div>
-
+  <script src="https://unpkg.com/imask"></script>
   <script src="script.js"></script>
   <script>
+        const iin = document.getElementById("iin")
+    const phoneInput = document.getElementById('phone')
 
+    
+    if (phoneInput) {
+      IMask(phoneInput, {
+        mask: '+{7} (000) 000-00-00'
+      })
+    }
+    if (iin) {
+      IMask(iin, {
+        mask: '000000000000'
+      })
+    }
   </script>
-  <script src="https://unpkg.com/imask"></script>
+  
 </body>
 </html>
